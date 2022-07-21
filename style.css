@@ -1,0 +1,824 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Hachi+Maru+Pop&family=Quicksand&display=swap');
+
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	width: 400px;
+	height: 200px;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#EAD3D3;
+	text-align: center;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0 auto;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	transition: 0.75;
+	font-family: 'Quicksand', sans-serif;
+	
+}
+nav ul li a:hover{
+	color: #AB3A3C;
+}
+.top-banner{
+	position: relative;
+	margin-top: 3%;
+}
+.top-banner .banner-conten{
+	position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	top: 20%;
+	width: 800px;
+	left: 30%;
+	padding: 70px 70px;
+	
+}
+.banner-conten h2{
+	font-size: 4rem;
+	font-family: 'Quicksand', sans-serif;
+	 text-align: center;
+}
+.banner-conten p{
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+/*------fav-page-start------*/
+.favorite{
+	margin-top: 50px;
+	background-color:#EAD3D3;
+}
+.tittle h1{
+	font-size: 2rem;
+	font-family: 'Fredericka the Great', cursive;
+	margin-left: 50px;
+	}
+span{
+	color:#AB3A3C;
+	font-size: 2.3rem;
+}
+.fav{
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px;
+}
+.fav .fav-text{
+	padding-left: 5rem;
+	padding-right: 120px;
+}
+.fav .fav-text p{
+	font-size: 1.5rem;
+	padding-bottom: 40px;
+	font-family: 'Quicksand', sans-serif;
+	
+}
+.fav .fav-text button{
+	height: 4rem;
+	width: 15rem;
+	border-radius: 5rem;
+	border-color: #AB3A3C;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: 1.5s;
+	font-family: 'Quicksand', sans-serif;
+}
+.fav .fav-text button:hover{
+	background-color: #AB3A3C;
+	color: #FFFFFF;
+}
+div.fav-img-1{
+position: relative;
+z-index: 30;
+margin-left: 230px;
+}
+div.fav-img-2{
+position: relative;
+margin-left: 120px;
+margin-top: -45px;
+z-index: 20px;
+}
+/*------fav-page-end------*/
+.popular{
+	margin-top: 80px;
+}
+.pop-text{
+text-align: center;
+margin-bottom: 3rem;;
+}
+.pop-card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.pop-left{
+	padding-left: 120px;
+	padding-right: 50px;
+	font-size: 1.5rem;
+}
+.pop-right{
+	padding-right: 120px;
+	position: relative;
+}
+.pop-right-text{
+	position: absolute;
+	top:30%;
+	left: 20%;
+	width: 220px;
+	height: 110px;
+	background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.4);
+	
+}
+.pop-right-text a{
+	text-decoration: none;
+	
+}
+.pop-right-text .text{
+	display: flex;
+	color:darkred;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	padding:20px;
+	margin: 10px auto;
+	font-size: 1.5rem;
+	transition: 1.3s;
+	font-family: 'Quicksand', sans-serif;
+}
+.pop-right-text .text:hover{
+	color: #FFFFFF;
+}
+	
+
+.pop-left a button{
+	height: 2rem;
+	width: 10rem;
+	border-radius: 5rem;
+	border-color: #AB3A3C;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: 1.5s;
+	margin-top: 10px;
+	font-family: 'Quicksand', sans-serif;
+}
+.pop-left button:hover{
+	background-color: #AB3A3C;
+	color: #FFFFFF;
+}
+/*------plan-page-start------*/
+
+
+.tittle h1{
+	font-size: 2rem;
+	font-family: 'Fredericka the Great', cursive;
+	margin-left: 50px;
+	 margin-top: 80px;
+	margin-bottom: 40px;
+	}
+span{
+	color:#AB3A3C;
+	font-size: 2.3rem;
+}
+.plan {
+  position: relative;
+ 
+}
+.plan .plan-text {
+  position: absolute;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color:#FFFFFF;
+  width: 500px;
+	height: 150px;
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	right: 50px;
+	top:80%;
+	font-size:1.5rem;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.plan .plan-text a button{
+	height: 2rem;
+	width: 10rem;
+	border-radius: 5rem;
+	border-color:darkgreen;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: 1.5s;
+	font-family: 'Quicksand', sans-serif;
+}
+.plan .plan-text a button:hover{
+	background-color:darkolivegreen;
+	color: #FFFFFF;
+}
+/*------plan-page-end------*/
+/*------blog-page-end------*/
+
+.blog .gallery{
+	position: relative;
+	height: auto;
+	width: 90%;
+	margin: auto;
+	padding: 45px 0;
+	background-color:#EAD3D3;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 1vh;
+	grid-auto-flow: dense;
+}
+.blog .gallery .img {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.9);
+	border-radius: 2px;
+}
+.blog .gallery .img:first-child{
+	grid-column-start: span 2;
+	grid-row-start: span 2;
+}
+.blog .gallery .img:nth-child(4){
+	grid-column-start: span 2;
+	grid-row-start: span 2;
+}
+.blog .gallery .img:nth-child(5){
+	grid-column-start: span 1;
+	grid-row-start: span 2;
+}	
+.blog .gallery .img:nth-child(5){
+	grid-column-start: span 1;
+	grid-row-start: span 2;
+}
+
+.blog .gallery .img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(0.5)grayscale(100);
+	transition: 0.3s ease-in-out;
+}
+.blog .gallery .img:hover img{
+	filter: brightness(1)grayscale(0);
+}
+/*------blog-page-end------*/
+/*------footer-page-start------*/
+.footer{
+	background-image:url("images/h6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	position: relative;
+	margin-top: 80px;
+	filter: brightness(0.8);
+	
+}
+.footer .group{
+	position: absolute;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+.footer .group img{
+	width: 400px;
+	height: 200px;
+	
+	
+}
+.group .box{
+	margin-top: 50px;
+	text-align: center;
+}
+.group .box .box-content p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5rem;
+}
+.group .box h3{
+	text-align: center;
+	padding-bottom: 40px;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-family: 'Quicksand', sans-serif;
+	
+	}
+
+.box .box-list li{
+	list-style-type: none;
+	padding: 20px;
+	
+}
+.box .box-list li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: bolder;
+	transition: 1s;
+	
+}
+.box .box-list li a:hover{
+	color: #ffffff;
+	
+}
+
+.box .social a{
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFFFF;
+	height: 60px;
+	width: 60px;
+	line-height: 50px;
+	background: #000000;
+	border-radius: 30%;
+	transition: 1s;
+}
+.box .social a:hover{
+	background: #AB3A3C;
+}
+.cta{
+	display: inline-block;
+	padding: 20px 15px;
+	font-size: 20px;
+	background:#AB3A3C;
+	border-radius: 4rem;
+	color: #FFFFFF;
+	position: fixed;
+	transition: all.2s;
+	text-align: center;
+	bottom: 80px;
+	right:20px;
+	line-height: 1;
+}
+.cta:hover{
+	background:#FFFFFF;
+	color: #AB3A3C;
+}
+/*------footer-page-end------*/
+/*----------------favorite-start-------------*/
+.fav-title h1{
+	font-size: 2rem;
+	font-family: 'Fredericka the Great', cursive;
+	background: #AB3A3C;
+	color: #FFFFFF;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+	margin-left: 10px;
+	margin-top: 2rem;
+		}
+.fav-title p{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	font-size: 1.5rem;
+	
+}
+.fav-page-content{
+	margin-left:80px;
+	margin-right: 20px;
+	 font-family: 'Quicksand', sans-serif;
+}
+.fav-page-content h3{
+    padding-bottom: 20px;
+	padding-top: 10px;
+    text-transform: uppercase;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+.fav-page-content p{
+    padding-top: 20px;
+	font-size: 1.2rem;
+}
+.fav-page-content .fav-page-conten-2{
+	background-color: #AB3A3C;
+	padding: 10px;
+	color: #F0F0F0;
+}
+/*------favorite-end------*/
+/*------popular-start------*/
+.heading{
+	padding-top: 2rem;
+	border-bottom: 2px solid rgba(0,0,0,.3);
+	margin: 0 auto;
+
+}
+.heading span{
+	font-size: 2rem;
+	padding: 1rem 6rem;
+	color: #FFFFFF;
+	background: #AB3A3C;
+	border-top-right-radius: 3rem;
+	display: inline-block;
+}
+.row{
+	background-color: #FFC7C8;
+	width: 100%;
+	text-align: center;
+}
+.row .column{
+	display:flex;
+	justify-content: space-between;
+ 
+}
+.row .column .content{
+	margin: 2rem;
+}
+.row .column .content img{
+	
+	overflow: hidden;
+}
+.row .column .text{
+    margin: 2rem;
+    text-align: justify;
+	font-size:'Quicksand', sans-serif;
+} 
+.row .column .text h3{
+	color: #AB3A3C;
+}
+.pop{
+	margin: 2rem;
+}
+.pop-check{
+	margin: 2rem;
+}
+/*---------------popular-end----------*/
+/*---------------plan-start----------*/
+.plan{
+	width: 100%;
+	height:100vh;
+	background-image:url("images/bien-ho-pleiku.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: brightness(0.9);
+	display: flex;
+	align-items: center;
+}
+.plan:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+.plan-content{
+	width: 80%;
+	padding: 50px;
+	color:#FBF0F0;
+	align-items:center;
+	font-family: 'Quicksand', sans-serif;
+	background-color: rgba(0,0,0,0.3);
+	margin-left: 50px;
+}
+
+.plan-content h1{
+	font-size: 3rem;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.plan-content p{
+	color: #ffffff;
+	font-size: 1.7rem;
+	padding-bottom: 20px;
+	margin-left: 50px;
+	padding-top: 20px;
+	
+}
+.plan-content a button{
+	height: 2rem;
+	width: 10rem;
+	border-radius: 5rem;
+	background-color: #AB3A3C;
+	color: #ffffff;
+	font-size: 1.2rem;
+	cursor: pointer;
+	margin-top: 10px;
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 50px;
+}
+/*--------------plan-end------------*/
+/*--------------blog-start------------*/
+#blogs{
+	background-color: #FFC7C8;
+}
+.blogs .blogs-container{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+    gap:1.5rem;
+}
+.blogs .blogs-container .blogs-box{
+	border:black;
+}
+.blogs .blogs-container .blogs-box .image{
+	overflow: hidden;
+	width: 100%;
+border:black;
+}
+.blogs .blogs-container .blogs-box .image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	
+}
+.blogs .blogs-container .blogs-box:hover .image img{
+	transform: scale(1.2);
+}
+.blogs .blogs-container .blogs-box .blog-content {
+	padding: 2rem;
+}
+.blogs .blogs-container .blogs-box .blog-content a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.blogs .blogs-container .blogs-box .blog-content .title{
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+.blogs .blogs-container .blogs-box .blog-content p{
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.blog-heading{
+	text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+.blog-heading span{
+	color:#AB3A3C;
+    text-transform: uppercase;
+	font-size: 2rem;
+}
+.blog-content span{
+	font-size: 1rem;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background:#AB3A3C;
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+#contact{
+	background-color: #FFC7C8;
+}
+.contact .row{
+    display: flex;
+}
+
+.contact .row .map{
+    flex:1 1 30rem;
+    width: 100%;
+    object-fit: cover;
+	text-align: center;
+}
+
+.contact .row form{
+    flex:1 1 30rem;
+    padding:2rem 1rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color:#AB3A3C;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
+
+/*--------------blog-end------------*/
+
+@media only screen and (max-width: 768px){
+	.top-banner img{
+		max-width: 768px;
+}
+	.top-banner .banner-conten {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    top:10%;
+    width:300px;
+    left: 10%;
+    padding: 20px 20px;
+}
+	.banner-conten h2{
+	font-size: 2rem;
+}
+	.banner-conten p{
+    font-size: 0.5rem;
+}
+	.fav {
+    display: block;
+}
+	.pop-card{
+	display: block;
+	}
+	.pop-right .pop-img{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		align-content: center;
+		 padding-top: 20px;
+	}
+	.plan-text h1{
+		text-align: center;
+	}
+	.plan .plan-text{
+    width: 500px;
+    height: 250px;
+    right: 60px;
+    top: 10%;
+	}
+	.plan-text h4{
+		color: #FFFFFF;
+		font-size: 2rem;
+		top:50%;
+		right:50%;
+		font-family: 'Fredericka the Great', cursive;
+	}
+
+.footer .group {
+    margin: 10px;
+}
+	.group .box .box-content p {
+		font-size: 1rem;
+}
+	.box .box-list li {
+		padding: 10px;
+		
+}
+	.box .social a {
+		height: 50px;
+		border-radius: 20%;
+		margin-bottom: 10px;
+		display: block;
+} 
+	.row .column{
+	display:inline;
+	
+	}
+.plan-content{
+	width: 80%;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+.plan-content h1{
+	font-size: 2rem;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.plan-content p{
+	font-size: 1rem;
+}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+	.top-banner .banner-conten {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    top: 20%;
+    width: 600px;
+    left: 10%;
+    padding: 30px 30px;
+}
+	.banner-conten h2{
+	font-size: 3rem;
+}
+	.banner-conten p{
+    font-size: 2rem;
+}
+	.fav{
+	padding-top: 10px;
+		display: block;
+		text-align: center;
+}
+.fav .fav-text{
+	padding-left: 1rem;
+	padding-right: 40px;
+}
+	.pop-left{
+		font-size: 1rem;
+	}
+	.pop-right{
+		padding-right: 10px;
+	}
+	.pop-right-text .text {
+    transition: 1.3s;
+	}
+	.pop-right-text .text:hover{
+	color: #FFFFFF;
+}
+	.plan-text h1{
+		text-align: center;
+}
+	.plan .plan-text{
+    width: 500px;
+    height: 350px;
+    right: 70px;
+    top: 30%;
+}
+	.plan-text h4{
+		color: #FFFFFF;
+		font-size: 2rem;
+		top:50%;
+		right:50%;
+		font-family: 'Fredericka the Great', cursive;
+}
+}
+@media only screen and (min-width : 992px) {
+		.plan .plan-text{
+    width: 500px;
+    height: 350px;
+    right: 70px;
+    top: 30%;
+}
+	.plan-text h4{
+		color: #FFFFFF;
+		font-size: 2rem;
+		top:50%;
+		right:50%;
+		font-family: 'Fredericka the Great', cursive;
+}
+	.top-banner .banner-conten{
+		padding: 30px 30px;
+		left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
